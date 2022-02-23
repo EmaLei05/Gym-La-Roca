@@ -2,18 +2,32 @@
 .IndexGrid{
     display: grid;
     width: 100%;
-    grid-template-areas:
+    grid-template-areas: 
     "menu menu"
     "carrusel carrusel"
     "direccion mapa"
     "footer footer";
 }
 .carrusel{
-    grid-area: "carrusel";
+    width: 100%;
+    height: 80vh;
+    grid-area: carrusel;
+    .img_carrusel{
+        width: 100%;
+        height: 80vh;
+    }
+    .img_precio{
+        width: 150px;
+        height: 150px;
+    }
 }
 .direccion{
-    grid-area: "direccion";
+    width: 100%;
+    height: 400px;
+    grid-area: direccion;
 }
 .mapa{
-    grid-area: "mapa";
+    width: 100%;
+    height: 400px;
+    grid-area: mapa;
 }

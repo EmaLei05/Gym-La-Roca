@@ -17,17 +17,35 @@ $dorado:gold;
 
 /*Menu-Footer*/
 .menu{
-    grid-area: "menu";
+    grid-area: menu;
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     background-color: $negro;
 }
 
+.menuFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    .img_menu{
+        width: 130px;
+        height: 80px;
+    }
+    .item_menu{
+        width: 100px;
+        text-align: center;
+        margin-right: auto;
+        .texto_menu{
+            text-decoration: none;
+            color: $blanco;
+        }
+    }
+}
+
 .footer{
-    grid-area: "footer";
+    grid-area: footer;
     width: 100%;
-    height: 10vh;
-    background-color: $negro;
+    height: 12vh;
 }
 /*General*/
 .border{
