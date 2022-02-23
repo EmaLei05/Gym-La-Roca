@@ -1,0 +1,19 @@
+/*Index*/
+.IndexGrid{
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "menu menu"
+    "carrusel carrusel"
+    "direccion mapa"
+    "footer footer";
+}
+.carrusel{
+    grid-area: "carrusel";
+}
+.direccion{
+    grid-area: "direccion";
+}
+.mapa{
+    grid-area: "mapa";
+}

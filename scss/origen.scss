@@ -9,5 +9,41 @@
     background:transparent;
 }
 
-/*Menu-Footer*/
+//variables
+$negro:black;
+$rojo:red;
+$blanco:white;
+$dorado:gold;
 
+/*Menu-Footer*/
+.menu{
+    grid-area: "menu";
+    width: 100%;
+    height: 10vh;
+    background-color: $negro;
+}
+
+.footer{
+    grid-area: "footer";
+    width: 100%;
+    height: 10vh;
+    background-color: $negro;
+}
+/*General*/
+.border{
+    border-width: 1px;
+    border-style: solid;
+    border-color: $negro;
+}
+
+h2{
+    color: $blanco;
+}
+
+h1{
+    color: $blanco;
+}
+@import "index.scss";
+/*Actividades*/
+/*Contactos*/
+/*Nosotros*/
