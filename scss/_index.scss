@@ -7,11 +7,14 @@
     "carrusel carrusel"
     "direccion mapa"
     "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr;
 }
 .carrusel{
     width: 100%;
     height: 80vh;
     grid-area: carrusel;
+    display: flex;
     .img_carrusel{
         width: 100%;
         height: 80vh;
@@ -30,4 +33,10 @@
     width: 100%;
     height: 400px;
     grid-area: mapa;
+    .tamanio_mapa{
+        margin-left: 90px;
+        margin-top: 50px;
+        width: 500px;
+        height: 300px
+    }
 }
